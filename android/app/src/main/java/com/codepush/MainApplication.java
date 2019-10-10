@@ -35,7 +35,7 @@ public class MainApplication extends Application implements ReactApplication {
           for(ReactPackage reactPackage: packages) {
             if (reactPackage instanceof CodePush) {
               //packages.remove(reactPackage);
-              reactPackage = new CodePush(BuildConfig.CODEPUSH_KEY,getApplicationContext(),BuildConfig.DEBUG);
+              reactPackage = new CodePush('6BSInkEGoZopq7NUOyXTvBrhMYSIWSdr-EDy0',getApplicationContext(),BuildConfig.DEBUG);
             }
           }
           //packages.add(new CodePush(BuildConfig.CODEPUSH_KEY,getApplicationContext(),BuildConfig.DEBUG));
